@@ -1,0 +1,37 @@
+pre {
+  font-family: "Courier New", "MonoCondenedC", "Andale Mono", monospace !important;
+  font-weight: 100 !important;
+  font-size:90% !important;
+}
+
+.font-whitney .entry-content p,ul, ol {
+  font-family:"Fira Sans","Avenir Next", "Helvetica" !important;
+  font-weight: 100 !important;
+  text-shadow: 0px 2px 3px rgba(0,0,0,1), 0px 1px 2px rgba(0,0,0,1) !important; 
+}
+
+.font-whitney .entry-content p b {
+  font-weight: 200 !important;
+  color: rgba(235,230,220,1) !important;
+}
+
+.font-whitney .entry-content pre {
+  font-family: "Courier New", "MonoCondenedC", "Andale Mono", monospace !important;
+  font-weight: 100 !important;
+  font-size:70% !important;
+  color: #bcf !important;
+  border:1px #444 solid !important;
+  border-radius:5px !important;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.7) !important;
+  padding-left:25px !important;
+  margin: 10px !important;
+}
+.mode-night .container {
+  background-color:#445 !important;
+  background-image: url('http://photo777.org/textures/01_free_subtle_textures_apple_ios_linen_texture.jpg') !important;
+}
+
+.mode-night .hentry img, .mode-night .hentry figure {
+  border: solid #222 15px !important;
+  background-color: #222 !important;
+}

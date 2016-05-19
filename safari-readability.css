@@ -1,0 +1,88 @@
+.font-whitney article  {
+  font-family:"Fira Sans","Avenir Next", "Helvetica" !important;
+}
+
+.font-sentinel article  {
+	font-weight: 100 !important; 
+  font-family: "Cambria", "Charter", "Arial Unicode MS", "Helvetica" !important;
+}
+
+.font-mercury article  {
+  font-family:'Playfair Display','Yuanti SC', HanaMinA,"Songti TC","Fira Sans","Avenir Next", "Helvetica" !important;
+  letter-spacing: 0.03ex;
+  line-height: 1.9 !important;
+}
+
+
+.mode-night article  {
+  font-weight: 100 !important;  
+  text-shadow: 0px 2px 3px rgba(0,0,0,1), 0px 1px 2px rgba(0,0,0,1) !important;
+}
+
+.mode-day article {
+  font-weight: 200 !important;  
+}
+
+
+.font-whitney article p b {
+  font-weight: 400 !important;
+}
+
+.mode-night article p b {
+  color: rgba(235,230,220,1) !important;
+}
+
+ 
+.entry-content pre, .entry-content code {
+  font-family:  "M+ 1m", monospace !important;
+  font-weight: 100 !important;
+  font-size:70% !important;
+}
+
+.mode-night article pre {
+  color: #ccd !important;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2) !important;
+  border-color: #373737 !important;
+}
+
+.mode-day article pre {
+  color: #768 !important;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.1) inset !important;
+  border-color: #ddd !important;
+}
+
+.font-whitney th {
+    font-family:"Fira Sans","Avenir Next", "Helvetica" !important;
+    font-weight: 400 !important;
+}
+
+.mode-night .container {
+  background-color:#445 !important;
+  background-image: url('http://turbo.designwoop.com/uploads/2012/03/01_free_subtle_textures_apple_ios_linen_texture.jpg') !important;
+}
+
+.mode-day .container {
+  background-color:#efefef !important;
+  background-image: url('http://www.lifetimeliquidations.com/ll-wp/wp-content/uploads/2013/09/seamless-paper-texture-light-blue-gray.jpg') !important;
+}
+
+.mode-night .hentry img, .mode-night .hentry figure {
+  border: solid #222 15px !important;
+  background-color: #222 !important;
+}
+
+
+@media print {   
+  article, pre {
+    text-shadow: none !important;
+  }
+  article, pre {
+    box-shadow: none !important;
+    border: 0px !important;
+  }
+    
+    article pre {
+        color: rgb(64, 64, 64) !important;
+        border: 0px solid #fff !important;
+        line-height: 150% !important;        
+}

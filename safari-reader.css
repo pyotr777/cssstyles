@@ -1,0 +1,117 @@
+body {
+    background-color: #eeeeee;
+    background-image: url(http://www.spachethespatula.com/wp-content/uploads/2014/01/fzm-seamless.wrinkled.paper_.texture-09.jpg);
+}
+#article {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.701961) 0px 2px 6px;
+    background-color: #7a7a7a !important;
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Light-paper-fibers-Seamless-Pattern.jpg) !important;
+}
+.page {
+    color: #444444;
+    font-weight: 100;
+    letter-spacing: 0.05ex;
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 0px 2px;
+    line-height: 1.8 !important;
+    background-color: transparent !important;
+    font-family: 'Playfair Display','Yuanti SC', Znikomit, 'Minion Pro', 'Helvetica Neue' !important;
+}
+.page > * {
+    zoom: 1;
+}
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: 0px;
+    text-align: start;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fira Sans';
+    text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 2px;
+    letter-spacing: 0.1ex;
+    font-weight: 800 !important;
+}
+h1.title {
+    color: black;
+}
+figcaption {
+    font-family: Helvetica, sans-serif;
+    font-size: 75%;
+    color: #666666;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px;
+}
+figcaption p {
+    margin: 0px;
+}
+a {
+    color: #556688 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: underline !important;
+}
+pre {
+    line-height: 150%;
+    letter-spacing: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 25px;
+    margin: 0px;
+    color: #556677;
+    background-color: rgba(200, 200, 210, 0.298039);
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px inset;
+    text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 2px;
+    font-family: 'M+ 1m', 'Courier New', MonoCondenedC, 'Andale Mono', monospace !important;
+    font-weight: 100 !important;
+    font-size: 75% !important;
+}
+img {
+    margin: 15px;
+    background-color: white;
+    padding: 50px;
+    border: 5px solid #dadada !important;
+}
+tt, b, strong {
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
+}
+table {
+    border-collapse: collapse;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 0px;
+    background-color: rgba(200, 200, 210, 0.298039);
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px inset;
+}
+tbody tr:hover td {
+    background-color: rgba(244, 244, 244, 0.298039);
+}
+th, td {
+    border-width: 0px;
+    font-family: 'Fira sans', Helvetica, sans-serif;
+    font-size: 75%;
+    padding: 2px 5px;
+    vertical-align: top;
+}
+th {
+    padding-top: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    line-height: 100%;
+    font-weight: 200 !important;
+}
+.page-number {
+    text-shadow: none;
+    font-family: "Bauhaus 93" !important;
+}
+
+@media print {
+    .page {
+        font-family: "Bauhaus 93" !important;
+    }
+}

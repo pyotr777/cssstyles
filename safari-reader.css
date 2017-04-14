@@ -1,22 +1,119 @@
 body {
-    background-color: #eeeeee;
-    background-image: url(http://www.spachethespatula.com/wp-content/uploads/2014/01/fzm-seamless.wrinkled.paper_.texture-09.jpg);
+    background-color: #651c1c;
+    background-image: url(http://photo777.org/textures/01_free_subtle_textures_apple_ios_linen_texture.jpg);
 }
-#article {
-    width: 90%;
-    box-shadow: rgba(0, 0, 0, 0.701961) 0px 2px 6px;
-    background-color: #7a7a7a !important;
-    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Light-paper-fibers-Seamless-Pattern.jpg) !important;
-}
+
 .page {
-    color: #444444;
-    font-weight: 100;
-    letter-spacing: 0.05ex;
-    text-shadow: rgba(0, 0, 0, 0) 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 0px 2px;
-    line-height: 1.8 !important;
-    background-color: transparent !important;
-    font-family: 'Playfair Display','Yuanti SC', Znikomit, 'Minion Pro', 'Helvetica Neue' !important;
+    column-count: 1;
+    column-gap: 50px;    
+    background-color: transparent !important;    
 }
+
+body.white {
+    --body-font-color: rgba(10, 20, 20, 0.9);    
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+}
+
+html body.sepia {
+    text-shadow: rgba(10, 0, 0, 0.2) 0px 0px 3px;
+    background-color: #374757;
+    background-image: none;
+}
+
+html:not(.paper) body.sepia {
+    text-shadow: rgba(10, 0, 0, 0.2) 0px 0px 3px;
+    background-color: #374757;
+    background-image: none;
+}
+
+body.gray {
+    --body-font-color: rgba(0, 0, 0, 0.5);
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
+}
+
+
+body.gray.iowan div#article {
+    letter-spacing: 0.3pt;
+    line-height: 170%;
+    word-spacing: 0.1em;
+}
+
+html body.night {
+    background-color:#222;
+    background-image: none;
+}
+
+html:not(.paper) body.night {
+    background-color:#222;
+    background-image: none;
+}
+
+body.gray .subhead {
+	color:rgba(100, 100, 100, 0.9);
+}
+
+
+body .subhead {
+	font-family:inherit;
+	letter-spacing: 0.05ex;
+	font-weight: 200;
+}
+
+body.athelas {
+ font-family: 'Playfair Display','Yuanti SC', Znikomit, 'Minion Pro', 'Helvetica Neue';
+  font-style: normal; 
+}
+body.charter {
+  font-style: italic;
+}
+.georgia { 
+  
+}
+.iowan {}
+
+.palatino { 
+  font-style: italic;
+}
+body.seravek  {
+  font-family: 'Fira sans', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: -0.04ex;
+}
+body.times {
+  font-style: italic;
+}
+
+#article {
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 2px 6px;
+    width:90%;
+}
+
+body.white #article {
+    background-color: #7a7a7a;
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/Light-paper-fibers-Seamless-Pattern.jpg);
+
+}
+
+body.gray #article {
+	background-image: url(http://photo777.org/textures/5127310748_58bb553d6e_b.jpg);
+}
+
+body.night #article {
+	background-image: url(http://photo777.org/textures/01_free_subtle_textures_apple_ios_linen_texture.jpg);
+	text-shadow: rgba(150, 155, 155, 0.4) 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
+}
+
+body.sepia #article p {
+    color: rgba(96, 83, 79, 0.8);
+}
+
+#article .page div.scrollable {
+    overflow-x: auto;
+}
+
+
 .page > * {
     zoom: 1;
 }
@@ -24,16 +121,17 @@ p {
     margin-top: 1em;
     margin-bottom: 1em;
     text-indent: 0px;
-    text-align: start;
+    text-align: start;    
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fira Sans';
-    text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 2px;
-    letter-spacing: 0.1ex;
-    font-weight: 800 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px;
+    letter-spacing: 0.15ex;
+    font-weight: 800;
+    font-style: normal;
 }
 h1.title {
-    color: black;
+    font-weight: 800;
 }
 figcaption {
     font-family: Helvetica, sans-serif;
@@ -52,27 +150,18 @@ a:hover {
     text-decoration: underline !important;
 }
 pre {
-    line-height: 150%;
+    line-height: 130%;
     letter-spacing: 0px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding: 10px 25px;
     margin: 0px;
-    color: #556677;
-    background-color: rgba(200, 200, 210, 0.298039);
-    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px inset;
-    text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 2px;
-    font-family: 'M+ 1m', 'Courier New', MonoCondenedC, 'Andale Mono', monospace !important;
+    padding:2px;
+    text-shadow: rgba(0, 50, 50, 0.1) 0px 0px 2px;
+    font-family: Monaco, MonoCondenedC,'M+ 1m', 'Courier New', 'Andale Mono', monospace !important;
     font-weight: 100 !important;
-    font-size: 75% !important;
+    font-size: 9pt !important;
+    background-color:  rgba(0, 0, 0, 0.1);
 }
 img {
-    margin: 15px;
-    background-color: white;
-    padding: 50px;
-    border: 5px solid #dadada !important;
+    
 }
 tt, b, strong {
     text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
@@ -87,9 +176,20 @@ table {
     background-color: rgba(200, 200, 210, 0.298039);
     box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px inset;
 }
+
+body.night table {
+	background-color: rgba(250, 250, 250, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.09) 1px 1px 2px inset;	
+}
+
 tbody tr:hover td {
     background-color: rgba(244, 244, 244, 0.298039);
 }
+
+body.night tbody tr:hover td {
+	background-color: rgba(244, 244, 244, 1);	
+}
+
 th, td {
     border-width: 0px;
     font-family: 'Fira sans', Helvetica, sans-serif;
@@ -110,8 +210,20 @@ th {
     font-family: "Bauhaus 93" !important;
 }
 
+@media screen and (min-width: 1200px) {
+    .page {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .page {
+        column-count: 3;
+    }
+}
+
 @media print {
     .page {
-        font-family: "Bauhaus 93" !important;
+        font-family: 'Playfair Display' !important;
     }
 }

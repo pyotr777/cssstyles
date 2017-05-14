@@ -38,6 +38,37 @@ body.gray.iowan div#article {
     word-spacing: 0.1em;
 }
 
+body.night.iowan div#article {
+    letter-spacing: 0.2pt;
+    line-height: 180%;
+    word-spacing: 0.15em;
+}
+
+
+body.night.athelas div#article {
+    font-family: 'Playfair Display','Yuanti SC', Znikomit, 'Minion Pro', 'Helvetica Neue';
+    font-style: normal; 
+    letter-spacing: 0.2pt;
+    line-height: 190%;
+    word-spacing: 0.15em;
+}
+body.charter {
+  font-style: italic;
+}
+.georgia { }
+.iowan {}
+
+.palatino { }
+
+body.seravek  {
+  font-family: 'Fira sans', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: -0.04ex;
+}
+
+
+
 html body.night {
     background-color:#222;
     background-image: none;
@@ -57,31 +88,6 @@ body .subhead {
 	font-family:inherit;
 	letter-spacing: 0.05ex;
 	font-weight: 200;
-}
-
-body.athelas {
- font-family: 'Playfair Display','Yuanti SC', Znikomit, 'Minion Pro', 'Helvetica Neue';
-  font-style: normal; 
-}
-body.charter {
-  font-style: italic;
-}
-.georgia { 
-  
-}
-.iowan {}
-
-.palatino { 
-  font-style: italic;
-}
-body.seravek  {
-  font-family: 'Fira sans', Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  letter-spacing: -0.04ex;
-}
-body.times {
-  font-style: italic;
 }
 
 #article {

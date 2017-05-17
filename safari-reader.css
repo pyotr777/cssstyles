@@ -46,14 +46,14 @@ body.night.iowan div#article {
 
 
 body.night.athelas div#article {
-    font-family: 'Playfair Display','Yuanti SC', Znikomit, 'Minion Pro', 'Helvetica Neue';
+    /*font-family: 'Playfair Display','Yuanti SC', Znikomit, 'Minion Pro', 'Helvetica Neue';*/
     font-style: normal; 
-    letter-spacing: 0.2pt;
-    line-height: 190%;
-    word-spacing: 0.15em;
+    letter-spacing: 0.7pt;
+    line-height: 200%;
+    word-spacing: 0.0em;
 }
 body.charter {
-  font-style: italic;
+  /*font-style: italic;*/
 }
 .georgia { }
 .iowan {}
@@ -162,8 +162,6 @@ pre {
     padding:2px;
     text-shadow: rgba(0, 50, 50, 0.1) 0px 0px 2px;
     font-family: Monaco, MonoCondenedC,'M+ 1m', 'Courier New', 'Andale Mono', monospace !important;
-    font-weight: 100 !important;
-    font-size: 9pt !important;
     background-color:  rgba(0, 0, 0, 0.1);
 }
 img {

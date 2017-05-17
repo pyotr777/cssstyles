@@ -52,12 +52,13 @@ body.night.athelas div#article {
     line-height: 200%;
     word-spacing: 0.0em;
 }
+
 body.charter {
   /*font-style: italic;*/
 }
+
 .georgia { }
 .iowan {}
-
 .palatino { }
 
 body.seravek  {
@@ -123,22 +124,41 @@ body.sepia #article p {
 .page > * {
     zoom: 1;
 }
+
 p {
     margin-top: 1em;
     margin-bottom: 1em;
     text-indent: 0px;
     text-align: start;    
 }
+
+#article .page header p {
+    font: 70% sans-serif;
+}
+
+#article .page header li {
+    font: 70% sans-serif;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fira Sans';
     text-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px;
     letter-spacing: 0.15ex;
-    font-weight: 800;
+    font-weight: 900;
     font-style: normal;
 }
+
 h1.title {
-    font-weight: 800;
+    font-family: Impact, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.25pt;
 }
+
+h2, h3, h4, h5, h6 {
+    padding-top: 15pt;
+}
+
 figcaption {
     font-family: Helvetica, sans-serif;
     font-size: 75%;
